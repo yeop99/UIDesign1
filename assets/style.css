@@ -37,12 +37,15 @@ img {
 }
 
 .cursive {
-	font-family: cursive;
+	font-family: courier prime;
 	font-size: 60px;
-	color: darkred;
+	color: whitesmoke;
 }
-
-a:hover{ color:darkgoldenrod; }
+a{text-decoration: none;}
+a:link{color: white;}
+a:visited{color: white;}
+a:hover{ color: black;}
+a:active{color: blue;}
 
 /* uncomment the code below to set the grid */
 

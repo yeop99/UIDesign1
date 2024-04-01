@@ -7,13 +7,14 @@
 /* adjusting fonts */
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
+	font-family: courier prime;
 	transition: background 500ms ease;
+	background-color: lightblue;
 }
 
 p, li {
-	font-size:  22px;
-	line-height: 30px;
+	font-size:  18px;
+	line-height: 24px;
 }
 
 /* adjusting spacing */
@@ -34,6 +35,14 @@ img {
 	max-width: 100%;
 	height:  auto;
 }
+
+.cursive {
+	font-family: cursive;
+	font-size: 60px;
+	color: darkred;
+}
+
+a:hover{ color:darkgoldenrod; }
 
 /* uncomment the code below to set the grid */
 

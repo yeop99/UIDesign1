@@ -1,23 +1,141 @@
-button{
+.hamburger {
 	background-color: transparent;
 	border: none;
 }
 
-.title{
-	color: #000;
-	text-align: center;
-	font-family: Commissioner;
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 800;
-	line-height: 17px; /* 85% */}
+.button-big {
+    display: flex;
+    width: 256px;
+    height: 71px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
 
-.date{
-	color: #000;
-	text-align: center;
-	font-family: Commissioner;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 17px; /* 94.444% */
+.button-big-shadow {
+    width: 256px;
+    height: 65px;
+    border-radius: 16px;
+    border: 2px solid #000;
+    background: #000;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	position: absolute;
+	top: 10px;
+	transform: translate(-50%, -50%);
+}
+
+.button-big-form {
+    width: 256px;
+    height: 65px;
+    border-radius: 16px;
+    border: 2px solid #000;
+    background: #FFC366;
+    color: #000;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	position: absolute;
+	top: 4px;
+	transform: translate(-50%, -50%);
+}
+
+
+.timer-title {
+  color: #000;
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 17px; /* 85% */}
+
+.timer-date {
+  color: #000;
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px; /* 94.444% */
+}
+
+.timer-box {
+  	width: 174px;
+	height: 180px;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	position: relative;
+	margin: 0 auto;
+}
+
+.timer-box-shadow{
+	width: 174px;
+	height: 174px;
+	flex-shrink: 0;
+	border-radius: 16px;
+	border: 2px solid #000;
+	background: #000;
+	position: absolute;
+	top: 10px;
+}
+
+.timer-box-form{
+	width: 174px;
+	height: 174px;
+	flex-shrink: 0;
+	border-radius: 16px;
+	border: 2px solid #000;
+	background: #76D3EE;
+	position: absolute;
+	top: 4px;
+}
+
+.time-set {
+color: #000;
+font-family: Commissioner;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px; /* 85% */
+  position: absolute;
+  top: 72%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.time-left {
+color: #000;
+font-family: Commissioner;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px; /* 106.25% */
+  position: absolute;
+  top: 85%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.left {
+color: #000;
+font-family: Commissioner;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 17px; /* 106.25% */
+  position: absolute;
+  top: 85%;
+  left: 17%;
+  transform: translate(-50%, -50%);
 }

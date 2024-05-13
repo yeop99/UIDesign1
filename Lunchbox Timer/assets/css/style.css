@@ -96,9 +96,21 @@
 	flex-shrink: 0;
 	border-radius: 16px;
 	border: 2px solid #000;
-	background: #76D3EE;
 	position: absolute;
 	top: 4px;
+	background: #FFF;
+}
+
+#timer-box-form-2024-03-20{
+	background: #EE7676;
+}
+
+#timer-box-form-2024-03-21{
+	background: #9CEE76;
+}
+
+#timer-box-form-2024-03-22{
+	background: #76D3EE;
 }
 
 .time-set {

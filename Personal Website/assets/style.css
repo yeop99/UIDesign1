@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Amaranth-Regular";
+  src: url("root/Amaranth/Amaranth-Regular.ttf");
+}
+@font-face {
+  font-family: "Amaranth-Bold";
+  src: url("root/Amaranth/Amaranth-Bold.ttf");
+}
+
 * {
 	margin:  0px;
 	padding:  0px;
@@ -7,9 +16,7 @@
 /* adjusting fonts */
 
 body {
-	font-family: courier prime;
 	transition: background 500ms ease;
-	background-color: lightblue;
 }
 
 p, li {
@@ -21,6 +28,8 @@ p, li {
 
 #left-column {
 	padding: 20px;
+	font-family: Amaranth-Regular;
+	text-align: left;
 }
 
 h1, p {
@@ -36,11 +45,6 @@ img {
 	height:  auto;
 }
 
-.cursive {
-	font-family: courier prime;
-	font-size: 60px;
-	color: whitesmoke;
-}
 a{text-decoration: none;}
 a:link{color: white;}
 a:visited{color: white;}

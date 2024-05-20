@@ -4,17 +4,18 @@ input, button{
 	border:none;
 }
 
-@media screen and (max-width: 768px) {
-    .timer-box {
-        width: 50%;
-    }
-}
+#text-loading{
+	color: #000;
+	text-align: center;
+	font-family: Commissioner;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 17px; /* 60.714% */
+    position: relative;
+    top: 300px;
+    margin: 0 auto;}
 
-@media screen and (max-width: 480px) {
-    .timer-box {
-        width: 80%;
-    }
-}
 /*----hamburger button----*/
 .hamburger {
 	background-color: transparent;
